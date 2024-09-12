@@ -1,0 +1,115 @@
+/* ini css */
+
+.main-header {
+    text-align: center;
+}
+
+.selection-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-btn {
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+}
+
+.bisque-color {
+    background-color: rgb(194, 224, 111);
+}
+
+.aqua-color {
+    background-color: rgb(240, 153, 112);
+}
+
+.luas-segitiga-header, .luas-jajargenjang-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: rgb(87, 137, 76);
+    text-align: center;
+}
+
+.luas-segitiga-content, .luas-jajargenjang-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.luas-segitiga-img {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.luas-jajargenjang-img {
+    height: 150px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.luas-segitiga-img {
+    background-image: url(https://asset.kompas.com/crops/2zBG1x88hjbk-HWtB3CGWxu0wcQ=/175x161:1573x1094/375x240/data/photo/2022/03/09/62288763c6d64.png);
+}
+
+.luas-jajargenjang-img {
+    background-image: url(https://alef.co.id/wp-content/uploads/2022/04/Screen-Shot-2022-04-20-at-9.13.08-AM.png);
+}
+
+.input-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrapper > input {
+    width: 65%;
+}
+
+input[type=number] {
+    padding: 4px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content > aside {
+    flex: 1;
+    margin: 10px;
+}
+
+.jajargenjang-section {
+    flex: 1;
+}
+
+@media only screen and (max-width: 480px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
+
+/* ini css */
+
+.result-display {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+.luas-jajargenjang-form-header, .luas-segitiga-form-header {
+    text-align: center;
+}
